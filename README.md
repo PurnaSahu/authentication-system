@@ -11,6 +11,7 @@ This project is designed to manage user authentication and related functionaliti
 * Verification of User Existence
 * Email Acknowledgments
 * OTP (One-Time Password) Generation and Sending via mail
+* Proper exception handling
 * CRUD Operations on data
 * MySQL database optimization (RDBMS)
 * It provides a comprehensive solution for handling user accounts, Authentication System and ensuring secure and efficient user authentication processes.
@@ -26,6 +27,7 @@ This project utilizes the following technologies:
 - **JPA/Hibernate**: I'm using JPA ORM Model to connect with DB and set dual connection(Read/Write) for fluent communication.
 - **Spring Boot**: Using latest version of Springbbot with JDK 17 for new features.
 - **spring-Mail**: For mail acknownledgment to user whenever needed by the application.
+- **Maven**: For dependecy management and project structure standardizations.
 
 ## Conclusion
 
